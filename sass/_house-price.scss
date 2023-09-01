@@ -1,0 +1,234 @@
+.house-price {
+    width: 100%;
+    padding: 14px 70px 0 70px;
+    // flex: 0 1 1445px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("../images/background/main/net.png") no-repeat left -80px  / contain, url("../images/background/main/gradient.png") no-repeat left -80px / contain;
+    position: relative;
+    overflow: hidden;
+}
+
+.house-price__choice {
+    width: 100%;
+    height: 100vw;
+    max-height: 1445px;
+    border-radius: 30px;
+    background-position: 50% 50%;
+    background: url("../images/background/house-price/house.png") no-repeat center/ cover, #EBE7E6;
+    position: relative;
+    display: flex;
+    align-items: start;
+}
+
+.title--gap_12 {
+    gap: 1px;
+}
+
+.title__text--fs-lh {
+    font-size: 68px;
+    line-height: 66px; /* 97.059% */
+}
+
+.house-price__title {
+    max-width: 535px;
+    position: absolute;
+    z-index: 2;
+    top: 77px;
+}
+
+.title__text-addition--width_328 {
+    max-width: 328px;
+}
+
+.switch {
+    padding: 12px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.95);
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: var(--2-a-2-a-2-a, #2A2A2A);
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 125% */
+}
+
+.switch__label {
+    display: block;
+    width: 51px;
+    height: 31px;
+    border-radius: 21px;
+    background-color: #E8E8E8;
+    transition: .5s;
+    position: relative;
+}
+
+.switch__checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.switch__label::after {
+    cursor: pointer;
+    position: absolute;
+    top: 1.5px;
+    left: 1.5px;
+    content: '';
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px gray;
+    background-color: rgba(255, 255, 255, 0.95);
+    transition: .5s;
+}
+
+.switch__checkbox:checked + .switch__label::after {
+    transform: translate(20px);
+    box-shadow: -1px 1px 2px gray;
+}
+
+.switch__checkbox:checked ~ .switch__label {
+    background-color: #34C759;
+}
+
+.switch__label:hover {
+    background-color: hwb(135 51% 7%);
+}
+
+.light-check {
+    position: absolute;
+    top: 762px;
+    left: 75px;
+}
+
+.camera-check {
+    position: absolute;
+    top: 1003px;
+    left: 109px;
+}
+
+.curtains-check {
+    position: absolute;
+    top: 587px;
+    left: 599px;
+}
+
+.gates-check {
+    position: absolute;
+    top: 1100px;
+    left: 552px;
+}
+
+.climate-check {
+    position: absolute;
+    top: 921px;
+    left: 786px;
+}
+
+.leak-check {
+    position: absolute;
+    top: 498px;
+    left: 908px;
+}
+
+.music-check {
+    position: absolute;
+    top: 838px;
+    left: 1063px;
+}
+
+.house-price__btn {
+    margin-top: 20px;
+    padding: 10px 22px 10px 10px;
+    border-radius: 45px;
+    border: none;
+    background: var(--444444, #444);
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    animation: background-change-back 2s linear;
+}
+
+.house-price__btn img {
+    z-index: 3;
+    transition: 2s;
+}
+
+.house-price__btn span {
+    color: var(--ffffff, #FFF);
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    max-width: 104px;
+    text-align: start;
+    transition: 2s;
+}
+
+.house-price__btn:hover {
+    animation: background-change 1s linear alternate;
+    animation-fill-mode: forwards;
+}
+
+.house-price__btn:hover span {
+    animation: text-move 1s linear alternate;
+    animation-fill-mode: forwards;
+}
+
+.house-price__btn:hover img {
+    transform: translateX(130px) rotate(-45deg);
+}
+
+.house-price__btn:hover span {
+    transform: translateX(-68px);
+    animation: text-blur 1s linear alternate;
+    animation-fill-mode: forwards;
+}
+
+.house-price__btn:active img {
+    transform: translateX(130px) rotate(-45deg) scale(1.2);
+}
+
+@keyframes background-change {
+    0% {
+        background:  rgba(52, 199, 89, 0.50), #444;
+    }
+    100% {
+        background: #34C759;
+    }
+}
+
+@keyframes background-change-back {
+    0% {
+        background:#34C759;
+    }
+    50% {
+        background: rgba(52, 199, 89, 0.50), #444;
+    }
+    100% {
+        background: var(--444444, #444);
+    }
+}
+
+@keyframes text-blur {
+    50% {
+        filter: blur(2px);
+    }
+    100% {
+        filter: blur(0);
+    }    
+}
+
+@media (max-width: 1430px) {
+    .house-price{
+        padding-left: calc(100vw * 0.058 - 13.52px);
+        padding-right: calc(100vw * 0.058 - 13.52px);
+    }
+}

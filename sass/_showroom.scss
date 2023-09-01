@@ -1,0 +1,122 @@
+.showroom {
+    width: 100%;
+    padding: 0 70px 120px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.showroom__title {
+    max-width: 443px;
+}
+
+.showroom__activities {
+    width: 90.3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 145px; */
+    flex-wrap: wrap;
+}
+
+.activity {
+    max-width: 265px;
+}
+
+.title--gap_12 {
+    gap: 12px;
+}
+
+.title__text--fs-lh_normal {
+    font-size: 28px;
+    line-height: normal;
+}
+
+.title__text--width {
+    max-width: 227px
+}
+
+.showroom__visit {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+
+.showroom__subtitle {
+    max-width: 546px;
+    color: var(--2-a-2-a-2-a, #2A2A2A);
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 94.737% */
+}
+
+.showroom__pictures {
+    width: 100%;
+    height: 730px;
+    // border-radius: 30px;
+    position: relative;
+}
+
+.showroom__picture {
+    width: 100%;
+    height: 100%;
+}
+
+.showroom__picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.showroom__slider {
+    margin: -64px auto 0 auto;
+}
+
+.showroom__variants {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    // flex-wrap: wrap;
+}
+
+.variant {
+    flex: 1 0 630px;
+    min-width: 400px;
+    max-width: 630px;
+    padding: 32px 40px;
+    border-radius: 30px;
+    background: var(--e-8-e-8-e-8, #E8E8E8);
+    backdrop-filter: blur(11px);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.variant__description .title__text{
+    max-width: 400px;
+}
+
+.variant__description .title__text-addition{
+    max-width: 350px;
+}
+
+.variant__picture {
+    width: 120px;
+    height: 120px;
+}
+
+.variant__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

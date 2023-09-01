@@ -1,0 +1,1100 @@
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/var.css">
+    </head>
+    <body>
+        <div class="page">
+            <header class="head">
+                <h1 class="logo"><span class="logo__blue">MiMi</span>Smart</h1>
+                <input type="checkbox" id="hidden-menu" class="head__hidden-menu">
+                <label class="head__button" for="hidden-menu">
+                    <span class="first-span"></span>
+                    <span class="second-span"></span>
+                    <span class="third-span"></span>
+                </label>
+                <nav class="nav">
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a href="#functionality" class="menu__link">Функционал</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#rule" class="menu__link">Оборудование</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#complex-decisions" class="menu__link">Комплексные решения</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#cost" class="menu__link">Услуги и цены</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#completed-projects" class="menu__link">Проекты</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#about-us" class="menu__link">О нас</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#contact-us" class="menu__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="phone">
+                    <svg class="phone__icon">
+                        <use xlink:href="images/content/sprite.svg#phone"></use>
+                    </svg>
+                    <p class="phone__number">+7 495 189-69-67</p>
+                </div>
+            </header>
+
+            <main class="main">  
+                <section class="house-price" id="cost">
+                    <div class="house-price__title title title--gap_12">
+                        <h2 class="title__text title__text--fs-lh">Умный дом под ключ</h2>
+                        <p class="title__text-addition title__text-addition--width_328 title__text-addition--lh-color_2A2A2A">российский производитель современной электрики</p>
+                        <button class="house-price__btn">
+                            <img src="images/content/house-price/button.svg" alt="btn">
+                            <span>Рассчитать стоимость</span>
+                        </button>
+                    </div>
+                    <section class="house-price__choice">
+                        <h3 class="house-price__subtitle visually-hidden ">Выбор услуг</h3>
+                        <div class="switch light-check">
+                            <input type="checkbox" id="light-chk" class="switch__checkbox" name="chk" value="yes">
+                            <label class="switch__label" for="light-chk"></label>
+                            <article class="animated-card">
+                                <picture class="animated-card__picture">
+                                    <source type='image/avif' srcset='images/content/house-price/light.avif'>
+                                    <source type='image/webp' srcset='images/content/house-price/light.webp'>
+                                    <img class="animated-card__img" src='images/content/content/house-price/light.jpeg' alt='light'>
+                                </picture>
+                                <div class="animated-card__info">
+                                    <h4 class="animated-card__title">Освещение</h4>
+                                    <p class="animated-card__text">Основное освещение меняет цвет (от холодного к теплому) и яркость свечения» в зависимости от времени суток.</p>
+                                </div>
+                            </article>
+                            <p class="switch__text">Освещение</p>
+                        </div>
+                        
+                        <div class="switch camera-check">
+                            <input type="checkbox" id="camera-chk" class="switch__checkbox" name="chk" value="yes">
+                            <label class="switch__label" for="camera-chk"></label>
+                            <article class="animated-card">
+                                <picture class="animated-card__picture">
+                                    <source type='image/avif' srcset='images/content/house-price/camera.avif'>
+                                    <source type='image/webp' srcset='images/content/house-price/camera.webp'>
+                                    <img class="animated-card__img" src='images/content/content/house-price/camera.png' alt='camera'>
+                                </picture>
+                                <div class="animated-card__info">
+                                    <h4 class="animated-card__title">Камеры видеонаблюдения</h4>
+                                    <p class="animated-card__text">Вы можете в online режиме наблюдать за тем, что происходит пока вас нет дома.</p>
+                                </div>
+                            </article>
+                            <p class="switch__text">Камеры</p>
+                        </div>
+
+                        <div class="switch curtains-check">  
+                            <input type="checkbox" id="curtains-chk" class="switch__checkbox" name="chk" value="yes">
+                            <label class="switch__label" for="curtains-chk"></label>
+                            <article class="animated-card">
+                                <picture class="animated-card__picture">
+                                    <source type='image/avif' srcset='images/content/house-price/curtains.avif'>
+                                    <source type='image/webp' srcset='images/content/house-price/curtains.webp'>
+                                    <img class="animated-card__img" src='images/content/content/house-price/curtains.png' alt='curtains'>
+                                </picture>
+                                <div class="animated-card__info">
+                                    <h4 class="animated-card__title">Шторы</h4>
+                                    <p class="animated-card__text">Система самостоятельно откроет шторы или группы штор по времени суток или с вашей команды.</p>
+                                </div>
+                            </article>
+                            <p class="switch__text">Шторы</p>
+                        </div>
+
+                        <div class="switch gates-check">
+                            <input type="checkbox" id="gates-chk" class="switch__checkbox" name="chk" value="yes">
+                            <label class="switch__label" for="gates-chk"></label>
+                            <article class="animated-card">
+                                <picture class="animated-card__picture">
+                                    <source type='image/avif' srcset='images/content/house-price/gates.avif'>
+                                    <source type='image/webp' srcset='images/content/house-price/gates.webp'>
+                                    <img class="animated-card__img" src='images/content/content/house-price/gates.jpeg' alt='gates'>
+                                </picture>
+                                <div class="animated-card__info">
+                                    <h4 class="animated-card__title">Ворота</h4>
+                                    <p class="animated-card__text">Удобное открытие и закрытие любых электроворот и электрозамков по вашей команде.</p>
+                                </div>
+                            </article>
+                            <p class="switch__text">Ворота</p>
+                        </div>
+
+                        <div class="switch climate-check">
+                            <input type="checkbox" id="climate-chk" class="switch__checkbox" name="chk" value="yes">
+                            <label class="switch__label" for="climate-chk"></label>
+                            <article class="animated-card">
+                                <picture class="animated-card__picture">
+                                    <source type='image/avif' srcset='images/content/house-price/climate.avif'>
+                                    <source type='image/webp' srcset='images/content/house-price/climate.webp'>
+                                    <img class="animated-card__img" src='images/content/content/house-price/climate.png' alt='climate'>
+                                </picture>
+                                <div class="animated-card__info">
+                                    <h4 class="animated-card__title">Микроклимат</h4>
+                                    <p class="animated-card__text">Умный дом знает, какая температура воздуха вам комфортна. Знает, как ее поддерживать. Когда включить отопление, а когда кондиционер или вентиляцию.</p>
+                                </div>
+                            </article>
+                            <p class="switch__text">Климат</p>
+                        </div>
+
+                        <div class="switch leak-check">
+                            <input type="checkbox" id="leak-chk" class="switch__checkbox" name="chk" value="yes">
+                            <label class="switch__label" for="leak-chk"></label>
+                            <article class=" animated-card">
+                                <picture class="animated-card__picture">
+                                    <source type='image/avif' srcset='images/content/house-price/leak.avif'>
+                                    <source type='image/webp' srcset='images/content/house-price/leak.webp'>
+                                    <img class="animated-card__img" src='images/content/content/house-price/leak.jpeg' alt='leak'>
+                                </picture>
+                                <div class="animated-card__info">
+                                    <h4 class="animated-card__title">Защита от протечек</h4>
+                                    <p class="animated-card__text">Датчик врезается в плитку и выглядит эстетично. При протечке система самостоятельно перекроет воду.</p>
+                                </div>
+                            </article>
+                            <p class="switch__text">Протечка</p>
+                        </div>
+
+                        <div class="switch music-check">
+                            <input type="checkbox" id="music-chk" class="switch__checkbox" name="chk" value="yes">
+                            <label class="switch__label" for="music-chk"></label>
+                            <article class=" animated-card">
+                                <picture class="animated-card__picture">
+                                    <source type='image/avif' srcset='images/content/house-price/music.avif'>
+                                    <source type='image/webp' srcset='images/content/house-price/music.webp'>
+                                    <img class="animated-card__img" src='images/content/content/house-price/music.jpeg' alt='music'>
+                                </picture>
+                                <div class="animated-card__info">
+                                    <h4 class="animated-card__title">Мультирум</h4>
+                                    <p class="animated-card__text">Музыка в доме будет следовать за вами. Вы сможете отправлять голосовые сообщения в любую комнату.  А система домашнего кинотеатра по одной команде подготовит комнату к просмотру кино (плавно выключит свет и закроет шторы), включит TV с аудиосистемой.</p>
+                                </div>
+                            </article>
+                            <p class="switch__text">Музыка</p>
+                        </div>
+                    </section>
+                </section>
+
+                <section class="na-cards">
+                    <h3 class="na-cards__title visually-hidden">Карточки для блока без свитчей</h3>
+                    <article class="na-card">
+                        <h4 class="na-card__title">Освещение</h4>
+                        <p class="na-card__text">Основное освещение меняет цвет (от холодного к теплому) и яркость свечения» в зависимости от времени суток.</p>
+                    </article>
+
+                    <article class="na-card">
+                        <h4 class="na-card__title">Шторы</h4>
+                        <p class="na-card__text">Система самостоятельно откроет шторы или группы штор по времени суток или с вашей команды.</p>
+                    </article>
+
+                    
+                    <article class="na-card">
+                        <h4 class="na-card__title">Микроклимат</h4>
+                        <p class="na-card__text">Умный дом знает, какая температура воздуха вам комфортна. Знает, как ее поддерживать.</p>
+                    </article>
+
+                    <article class="na-card">
+                        <h4 class="na-card__title">Защита от протечек</h4>
+                        <p class="na-card__text">Датчик врезается в плитку и выглядит эстетично. При протечке система самостоятельно перекроет воду.</p>
+                    </article>
+
+                    <article class="na-card">
+                        <h4 class="na-card__title">Камеры видеонаблюдения</h4>
+                        <p class="na-card__text">Вы можете в online режиме наблюдать за тем, что происходит пока вас нет дома.</p>
+                    </article>
+
+                    <article class="na-card">
+                        <h4 class="na-card__title">Голосовое управление</h4>
+                        <p class="na-card__text">Любое действие вы можете выполнить не только с приложения на смартфоне, но и голосовой командой.</p>
+                    </article>
+
+                    <article class="na-card">
+                        <h4 class="na-card__title">Ворота</h4>
+                        <p class="na-card__text">Удобное открытие и закрытие любых электроворот и электрозамков по вашей команде.</p>
+                    </article>                    
+               
+                    <picture class="na-cards__slider slider">
+                        <source type='image/avif' srcset='images/background/projects/Slider.avif'>
+                        <source type='image/webp' srcset='images/background/projects/Slider.webp'>
+                        <img src='images/background/projects/Slider.png' alt='slider'>
+                    </picture>
+                </section>
+                
+                <section class="functionality">
+                    <div class="functionality__title title">
+                        <p class="title__tag" id="functionality">функционал</p>
+                        <h2 class="title__text">Что может умный дом?</h2>
+                        <p class="title__text-addition">возможности, доступные при установке системы MimiSmart</p>
+                    </div>
+                    <div class="functionality__kinds">
+                        <section class="electricity kind">
+                            <h3 class="kind__title">Электрика</h3>
+                            <ul class="kind__list">
+                                <li class="kind__item">
+                                    <p class="kind__text">Управление розетками</p>
+                                </li>
+                                <li class="kind__item">
+                                    <p class="kind__text">Сценарные выключатели</p>
+                                </li>
+                                <li class="kind__item">
+                                    <p class="kind__text">Бесперебойное питание</p>
+                                </li>
+                                <li class="kind__item">
+                                    <p class="kind__text">Стабилизация напряжения</p>
+                                </li>
+                                <li class="kind__item">
+                                    <p class="kind__text">Молниезащита</p>
+                                </li>
+                            </ul>
+                            <div class="kind__icons">
+                                <div class="kind__icon garage-icon">
+                                    <svg viewBox="0 0 81 81" fill="none">
+                                        <circle cx="40.583" cy="40.5835" r="40" fill="#2A2A2A"/>
+                                    </svg>
+                                </div>
+                                <div class="kind__icon ventilation-icon">
+                                    <svg viewBox="0 0 31 31" fill="none">
+                                        <circle cx="15.2256" cy="15.2269" r="15" fill="#2A2A2A"/>
+                                    </svg>
+                                </div>
+                                <div class="kind__icon pump-icon">
+                                    <svg width="41" height="41" viewBox="0 0 41 41" fill="none">
+                                        <circle cx="20.0331" cy="20.032" r="20" fill="#2A2A2A"/>
+                                    </svg>
+                                </div>
+                                <div class="kind__icon lock-icon">
+                                    <svg viewBox="0 0 57 57" fill="none">
+                                        <circle cx="28.6814" cy="28.6821" r="28" fill="#2A2A2A"/>
+                                    </svg>
+                                </div>
+                                <div class="kind__icon temperature-icon">
+                                    <svg viewBox="0 0 41 41" fill="none">
+                                        <circle cx="20.8341" cy="20.8333" r="20" fill="#2A2A2A"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <button class="kind__btn">
+                                <img src="images/background/functionality/arrow.svg" alt="arrow" class="arrow">
+                            </button>
+                        </section>
+
+                        <section class="lighting kind">
+                            <h3 class="kind__title">Освещение</h3>
+                            <ul class="kind__list">
+                                <li class="kind__item">
+                                    <p class="kind__text">Датчики движения</p>
+                                </li>
+                                <li class="kind__item">
+                                    <p class="kind__text">Биодинамическое освещение</p>
+                                </li>
+                            </ul>
+                            <picture class='lamp'>
+                                <source type='image/avif' srcset='images/content/functionality/lamp.avif'>
+                                <source type='image/webp' srcset='images/content/functionality/lamp.webp'>
+                                <img class='feature-image' src='images/content/functionality/lamp.png' alt='lamp'>
+                            </picture>
+
+                            <picture class='lamp2'>
+                                <source type='image/avif' srcset='images/content/functionality/lamp2.avif'>
+                                <source type='image/webp' srcset='images/content/functionality/lamp2.webp'>
+                                <img class='feature-image' src='images/content/functionality/lamp2.png' alt='lamp'>
+                            </picture>
+
+                            <button class="kind__btn">
+                                <img src="images/background/functionality/arrow.svg" alt="arrow" class="arrow">
+                            </button>
+                        </section>
+
+                        <section class="security kind">
+                            <h3 class="kind__title">Безопасность</h3>
+                            <ul class="kind__list">
+                                <li class="kind__item">
+                                    <p class="kind__text">Электрозамок</p>
+                                </li>
+                                <li class="kind__item">
+                                    <p class="kind__text">Защита от протечек</p>
+                                </li>
+                                <li class="kind__item">
+                                    <p class="kind__text">Охранная сигнализация</p>
+                                </li>
+                                <li class="kind__item">
+                                    <p class="kind__text">Видеонаблюдение</p>
+                                </li>
+                                <li class="kind__item">
+                                    <p class="kind__text">Домофония</p>
+                                </li>
+                            </ul>
+                            <picture class='lock'>
+                                <source type='image/avif' srcset='images/content/functionality/lock.avif'>
+                                <source type='image/webp' srcset='images/content/functionality/lock.webp'>
+                                <img class='feature-image' src='images/content/functionality/lock.png' alt='lock'>
+                            </picture>
+
+                            <picture class='camera'>
+                                <source type='image/avif' srcset='images/content/functionality/camera.avif'>
+                                <source type='image/webp' srcset='images/content/functionality/camera.webp'>
+                                <img class='feature-image' src='images/content/functionality/camera.png' alt='camera'>
+                            </picture>
+
+                            <button class="kind__btn">
+                                <img src="images/background/functionality/arrow.svg" alt="arrow" class="arrow">
+                            </button>
+                        </section>
+
+                        <section class="climate-control kind">
+                            <h3 class="kind__title">Климат-контроль</h3>
+                            <ul class="kind__list">
+                                <li class="kind__item">
+                                    <p class="kind__text">Теплый пол</p>
+                                </li>
+                                <li class="kind__item">
+                                    <p class="kind__text">Конвекторы</p>
+                                </li>
+                                <li class="kind__item">
+                                    <p class="kind__text">Радиаторы</p>
+                                </li>
+                                <li class="kind__item">
+                                    <p class="kind__text">Кондиционеры</p>
+                                </li>
+                                <li class="kind__item">
+                                    <p class="kind__text">Вентиляция</p>
+                                </li>
+                                <li class="kind__item">
+                                    <p class="kind__text">Увлажнение</p>
+                                </li>
+                            </ul>
+                            <picture class='climate'>
+                                <source type='image/avif' srcset='images/content/functionality/climate.avif'>
+                                <source type='image/webp' srcset='images/content/functionality/climate.webp'>
+                                <img class='feature-image' src='images/content/functionality/climate.png' alt='climate'>
+                            </picture>
+
+                            <button class="kind__btn">
+                                <img src="images/background/functionality/arrow.svg" alt="arrow" class="arrow">
+                            </button>
+                        </section>
+
+                        <section class="curtains kind">
+                            <h3 class="kind__title">Шторы</h3>
+                            <ul class="kind__list">
+                                <li class="kind__item">
+                                    <p class="kind__text">Работа по таймеру и в сценариях</p>
+                                </li>
+                                <li class="kind__item">
+                                    <p class="kind__text">Управление со смартфона, голосом и клавишными выключателями</p>
+                                </li>
+                                <li class="kind__item">
+                                    <p class="kind__text">Объединение в группы</p>
+                                </li>
+                            </ul>
+                            <p class="curtains__text">Работа по таймеру и в сценариях</p>
+                            <picture class='curtain'>
+                                <source type='image/avif' srcset='images/content/functionality/curtains.avif'>
+                                <source type='image/webp' srcset='images/content/functionality/curtains.webp'>
+                                <img class='feature-image' src='images/content/functionality/curtains.png' alt='curtains'>
+                            </picture>
+
+                            <button class="kind__btn">
+                                <img src="images/background/functionality/arrow.svg" alt="arrow" class="arrow">
+                            </button>
+                        </section>
+
+                        <section class="multimedia kind">
+                            <h3 class="kind__title">Мультимедиа</h3>
+                            <ul class="kind__list">
+                                <li class="kind__item">
+                                    <p class="kind__text">Домашний кинотеатр</p>
+                                </li>
+                                <li class="kind__item">
+                                    <p class="kind__text">Музыка в каждой комнате</p>
+                                </li>
+                                <li class="kind__item">
+                                    <p class="kind__text">AirPlay</p>
+                                </li>
+                                <li class="kind__item">
+                                    <p class="kind__text">Следящая музыка</p>
+                                </li>
+                                <li class="kind__item">
+                                    <p class="kind__text">Голосовые сообщения по помещениям</p>
+                                </li>
+                            </ul>
+                            <div class="messages">
+                                <p class="message m1">Доброе утро! Как настроение?</p>
+                                <p class="message m2">Включить вашу любимую музыку?</p>
+                                <p class="message m3">Включаю утренний плейлист</p>
+                            </div>
+                            <div class="kind__wrapper">
+                                <picture class='tv'>
+                                    <source type='image/avif' srcset='images/content/functionality/tv.avif'>
+                                    <source type='image/webp' srcset='images/content/functionality/tv.webp'>
+                                    <img class='feature-image' src='images/content/functionality/tv.png' alt='tv'>
+                                </picture>
+                                <picture class='media1'>
+                                    <source type='image/avif' srcset='images/content/functionality/media.avif'>
+                                    <source type='image/webp' srcset='images/content/functionality/media.webp'>
+                                    <img class='feature-image' src='images/content/functionality/media.png' alt='media'>
+                                </picture>
+                                <picture class='media2'>
+                                    <source type='image/avif' srcset='images/content/functionality/media2.avif'>
+                                    <source type='image/webp' srcset='images/content/functionality/media2.webp'>
+                                    <img class='feature-image' src='images/content/functionality/media2.png' alt='media2'>
+                                </picture>
+                                <picture class='funphone'>
+                                    <source type='image/avif' srcset='images/content/functionality/phone.avif'>
+                                    <source type='image/webp' srcset='images/content/functionality/phone.webp'>
+                                    <img class='feature-image' src='images/content/functionality/phone.png' alt='phone'>
+                                </picture>
+                            </div>
+                            <button class="kind__btn">
+                                <img src="images/background/functionality/arrow.svg" alt="arrow" class="arrow">
+                            </button>
+                        </section>
+                    </div>
+                </section>
+                
+                <section class="decisions" id="complex-decisions">
+                    <div class="decisions__title title">
+                        <p class="title__tag">для всех</p>
+                        <h2 class="title__text">Комплексные решения</h2>
+                        <p class="title__text-addition">на основе 17-летнего опыта</p>
+                    </div>
+                    <div class="decisions__kinds">
+                        <div class="decisions__kind flat">
+                            <h3 class="decisions__for">Для квартиры</h3>
+                            <button class="decisions__btn">
+                                <img src="images/content/decisions/arrow.svg" alt="arrow" class="decisions__arrow">
+                            </button>
+                        </div>
+                        <div class="decisions__kind house">
+                            <h3 class="decisions__for">Для дома</h3>
+                            <button class="decisions__btn">
+                                <img src="images/content/decisions/arrow.svg" alt="arrow" class="decisions__arrow">
+                            </button>
+                        </div>
+                        <div class="decisions__kind village">
+                            <h3 class="decisions__for">Для дачи</h3>
+                            <button class="decisions__btn">
+                                <img src="images/content/decisions/arrow.svg" alt="arrow" class="decisions__arrow">
+                            </button>
+                        </div>
+                    </div>   
+                </section>
+                
+                <section class="guarantee">
+                    <div class="guarantee__title title title--gap-align">
+                        <p class="title__tag title__tag--back-color">на всю нашу продукцию</p>
+                        <h2 class="title__text">5 лет гарантии</h2>
+                        <p class="title__text-addition title__text-addition--color">Самая длительная гарантия на рынке и круглосуточная поддержка по любым вопросам</p>
+                        <button class="guarantee__button">Рассчитать стоимость</button>
+                    </div>
+                    <div class="guarantee__picture-set">
+                        <svg class="guarantee__border" viewBox="0 0 600 309" fill="none">
+                            <circle cx="235.217" cy="235.217" r="234.717" transform="matrix(0.866025 -0.5 0.866025 0.5 -119 161.217)" stroke-dasharray="5 5"/>
+                        </svg>
+                        <svg class="guarantee__ellipse ellipse-1" viewBox="0 0 28 16" fill="none">
+                            <circle cx="11" cy="11" r="11" transform="matrix(0.866025 -0.5 0.866025 0.5 -5 8)"/>
+                        </svg>
+                        <svg class="guarantee__ellipse ellipse-2" viewBox="0 0 28 16" fill="none">
+                            <circle cx="11" cy="11" r="11" transform="matrix(0.866025 -0.5 0.866025 0.5 -5 8)"/>
+                        </svg>
+                        <svg class="guarantee__ellipse ellipse-3" viewBox="0 0 28 16" fill="none">
+                            <circle cx="11" cy="11" r="11" transform="matrix(0.866025 -0.5 0.866025 0.5 -5 8)"/>
+                        </svg>
+                        <picture class="guarantee__picture">
+                            <img class="guarantee__img" src="images/content/guarantee/5_years.png" alt="5 лет">
+                        </picture>
+                    </div>
+                </section>
+                
+                <section class="rule" id="rule">
+                    <div class="rule__title title title--gap-align">
+                        <p class="title__tag">управление</p>
+                        <h2 class="title__text">Управляй как удобно</h2>
+                        <p class="title__text-addition">удобное взаимодействие с домом</p>
+                    </div>
+                    <section class="features">
+                        <div class="feature convenient-app big-cell bc">
+                            <h3 class="feature__title">Удобное приложение</h3>
+                            <p class="feature__text">управление всей электроникой в доме с экрана телефона, планшета или часов</p>
+                            <a href="#" class="feature__link">Подробнее</a>
+                        </div>
+                        <div class="features__picture sc">
+                            <picture class='pad'>
+                                <source type='image/avif' srcset='images/content/rule/pad.avif'>
+                                <source type='image/webp' srcset='images/content/rule/pad.webp'>
+                                <img class='feature-image' src='images/content/rule/pad.png' alt='pad'>
+                            </picture>
+                            <picture class='smartphone'>
+                                <source type='image/avif' srcset='images/content/rule/phone.avif'>
+                                <source type='image/webp' srcset='images/content/rule/phone.webp'>
+                                <img class='feature-image' src='images/content/rule/phone.png' alt='smartphone'>
+                            </picture>
+                            <picture class='watch'>
+                                <source type='image/avif' srcset='images/content/rule/watch.avif'>
+                                <source type='image/webp' srcset='images/content/rule/watch.webp'>
+                                <img class='feature-image' src='images/content/rule/watch.png' alt='watch'>
+                            </picture>
+                        </div>
+
+                        <div class="feature smart-switches average-cell">
+                            <h3 class="feature__title">Умные выключатели</h3>
+                            <p class="feature__text">разные сценарии на каждую кнопку: яркий, средний, тусклый и вкл/выкл все устройства</p>
+                            <a href="#" class="feature__link video-link">Смотреть видео</a>
+                        </div>
+                        <div class="features__picture big-cell average-cell">
+                            <picture class='controls'>
+                                <source type='image/avif' srcset='images/content/rule/switches.avif'>
+                                <source type='image/webp' srcset='images/content/rule/switches.webp'>
+                                <img class='feature-image' src='images/content/rule/switches.png' alt='controls'>
+                            </picture>
+                        </div>
+
+                        <div class="feature voice-control big-cell">
+                            <h3 class="feature__title">Голосовое управление</h3>
+                            <p class="feature__text">Если телефон или выключатель не под рукой, просто скажите “Алиса” или “Сири” и система выполнит десятки действий</p>
+                        </div>
+                        <div class="features__picture">
+                            <picture class='speaker1'>
+                                <source type='image/avif' srcset='images/content/rule/speaker1.avif'>
+                                <source type='image/webp' srcset='images/content/rule/speaker1.webp'>
+                                <img class='feature-image' src='images/content/rule/speaker1.png' alt='speaker1'>
+                            </picture>
+                            <picture class='speaker2'>
+                                <source type='image/avif' srcset='images/content/rule/speaker2.avif'>
+                                <source type='image/webp' srcset='images/content/rule/speaker2.webp'>
+                                <img class='feature-image' src='images/content/rule/speaker2.png' alt='speaker2'>
+                            </picture>
+                            <picture class='speaker3'>
+                                <source type='image/avif' srcset='images/content/rule/speaker3.avif'>
+                                <source type='image/webp' srcset='images/content/rule/speaker3.webp'>
+                                <img class='feature-image' src='images/content/rule/speaker3.png' alt='speaker3'>
+                            </picture>
+                            <picture class='speaker4'>
+                                <source type='image/avif' srcset='images/content/rule/speaker4.avif'>
+                                <source type='image/webp' srcset='images/content/rule/speaker4.webp'>
+                                <img class='feature-image' src='images/content/rule/speaker4.png' alt='speaker4'>
+                            </picture>
+                        </div>
+
+                        <div class="feature ready-scripts average-cell">
+                            <h3 class="feature__title">Готовые сценарии</h3>
+                            <p class="feature__text">десятки сценариев, С которыми Ваша жизнь станет комфортнее</p>
+                        </div>
+                        <div class="features__picture big-cell average-cell">
+                            <picture class='group'>
+                                <source type='image/avif' srcset='images/content/rule/group.avif'>
+                                <source type='image/webp' srcset='images/content/rule/group.webp'>
+                                <img class='feature-image' src='images/content/rule/group.png' alt='group'>
+                            </picture>
+                        </div>
+                    </section>
+                </section>
+                
+                <section class="automatization">
+                    <h2 class="automatization__title visually-hidden">Автоматизация все сделает за вас</h2>
+                    <section class="algorithm">
+                        <div class="algorithm__title title title--gap_12-align">
+                            <h3 class="title__text title__text--color">...или положитесь на автоматизации</h3>
+                            <p class="title__text-addition title__text-addition--color_w">для запуска автоматизаций используются датчики, которые размещаются там, где вам они необходимы</p>
+                        </div>
+                        <div class="algorithm__scheme">
+                            <div class="algorithm__period b1"></div>
+                            <div class="algorithm__period b2"></div>
+                            <div class="algorithm__period b3"></div>
+                            <div class="algorithm__period b4"></div>
+
+                            <div class="algorithm__action a1">
+                                <p class="algorithm__operator">Если</p>
+                                <div class="algorithm__condition condition">
+                                    <p class="condition__text">
+                                        <span class="condition__var">Датчик движения</span>
+                                        <span class="condition__eq">=</span>
+                                        <span class="condition__var">уловил движение</span>
+                                    </p>
+                                    <p class="condition__addition">с 10:00 до 20:00</p>
+                                </div>
+                            </div>
+
+                            <div class="algorithm__action a2">
+                                <p class="algorithm__operator">Действие</p>
+                                <div class="algorithm__condition condition">
+                                    <p class="condition__text">
+                                        <span class="condition__var">Свет в прихожей</span>
+                                        <span class="condition__eq">=</span>
+                                        <span class="condition__var">Включить</span>
+                                    </p>
+                                    <p class="condition__addition">яркость 50%</p>
+                                </div>
+                                <div class="algorithm__condition condition">
+                                    <p class="condition__text">
+                                        <span class="condition__var">Музыка</span>
+                                        <span class="condition__eq">=</span>
+                                        <span class="condition__var">Включить</span>
+                                    </p>
+                                    <p class="condition__addition">громкость 15%</p>
+                                </div>
+                            </div>
+
+                            <div class="algorithm__action a3">
+                                <p class="algorithm__operator">Если</p>
+                                <div class="algorithm__condition condition">
+                                    <p class="condition__text">
+                                        <span class="condition__var">движение меньше 5%</span>
+                                        <span class="condition__eq">=</span>
+                                        <span class="condition__var time">30 сек</span>
+                                    </p>
+                                    <p class="condition__addition">в течение 3 минут</p>
+                                </div>
+                            </div>
+
+                            <div class="algorithm__action a4">
+                                <p class="algorithm__operator">Действие</p>
+                                <div class="algorithm__condition condition">
+                                    <p class="condition__text">
+                                        <span class="condition__var">Свет в прихожей</span>
+                                        <span class="condition__eq">=</span>
+                                        <span class="condition__var">Выключить</span>
+                                    </p>
+                                </div>
+                                <div class="algorithm__condition condition">
+                                    <p class="condition__text">
+                                        <span class="condition__var">музыка</span>
+                                        <span class="condition__eq">=</span>
+                                        <span class="condition__var">выключить</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        </section>
+                        <section class="sensors">
+                            <h3 class="sensors__title">Наши датчики</h3>
+                            <div class="sensors__kinds">
+                                <article class="sensor movement">
+                                    <h3 class="sensor__title">Датчик движения</h3>
+                                    <p class="sensor__description">Самый маленький в мире. Улавливает мельчайшие движения, даже движение пальцев. Отличают человека от кошки. Вам не придется танцевать перед датчиком.</p>
+                                </article>
+
+                                <article class="sensor leak">
+                                    <h3 class="sensor__title">Датчики протечки</h3>
+                                    <p class="sensor__description">Встраивается вровень в плитку. его невозможно перевернуть как накладной, не мешается под ногами и не портит вид. Пока человек находится рядом - активируется режим уборки, что исключает случайные перекрытия воды при влажной уборке.</p>
+                                </article>
+
+                                <article class="sensor temperature">
+                                    <h3 class="sensor__title">Датчики температуры</h3>
+                                    <p class="sensor__description">Скрыты от глаз за выключателями. Определяют температуру и влажность на уровне груди сидящего человека для создания правильного микроклимата. Подойдут абсолютно любые выключатели.</p>
+                                </article>
+                            </div>
+                        </section>
+                        <section class="switches">
+                            <div class="switches__title title title--gap_22">
+                                <h3 class="title__text title__text--color">Выключатели</h3>
+                                <p class="title__text-addition title__text-addition--color_w">Это классические выключатели. Почти классические. На одну кнопку можно разместить Десятки действий.</p>
+                                <div class="switches__options">
+                                    <p class="switches__option">Выключение всего света в квартире</p>
+                                    <p class="switches__option">Включить вечерний свет</p>
+                                    <p class="switches__option">Закрыть или открыть шторы</p>
+                                    <p class="switches__option">Включить/выключить свет</p>
+                                    <p class="switches__option">и другие</p>
+                                </div>
+                            </div>
+                            <ul class="companies companies--gap_69">
+                                <li class="companies-logo">
+                                    <picture>
+                                        <source type="image/avif" srcset="images/content/switches/basalte.avif">
+                                        <source type="image/webp" srcset="images/content/switches/basalte.webp">
+                                        <img src="images/content/switches/basalte.png" alt="Basalte-logo">
+                                    </picture>
+                                </li>
+                                <li class="companies-logo">
+                                    <picture>
+                                        <source type="image/avif" srcset="images/content/switches/jung.avif">
+                                        <source type="image/webp" srcset="images/content/switches/jung.webp">
+                                        <img src="images/content/switches/jung.png" alt="Jung-logo">
+                                    </picture>
+                                </li>
+                                <li class="companies-logo">
+                                    <svg class="gira" xmlns="http://www.w3.org/2000/svg">
+                                        <g>
+                                            <path d="M8.7.2a9.4 9.4 0 0 0-7.5 5.2C.3 7.4.1 8.6.1 11.7c0 2.4 0 3 .4 4.1.8 3.2 2.6 5.5 5.3 6.9a20.1 20.1 0 0 0 14.8-.2l1.2-.5V10.9H11.2v2.9h5.6v6.6l-.8.3c-1.2.5-4.2.6-5.6.2-2-.5-3.6-2.1-4.3-4.4-1-3.1-.7-8.1.5-10.7a5.3 5.3 0 0 1 2.6-2.5c1.3-.5 3.8-.5 4.8 0s1.5 1.3 1.8 2.4l.2.8h5.5v-.8C21 3 19 1.2 15.8.4 14.4.1 10.2 0 8.7.2Zm20.2 12v11.6h4.9V.5H29v11.7Zm12.5 0v11.6h4.9v-10h2.2c2.6.1 3.5.4 4.4 1.3.7.7 1 1.6 2.1 5.7l.9 3h2.5l2.5-.1c0-.5-2.3-8.5-2.6-9-.7-1.3-2-2.1-3.8-2.5-.5-.1-.5-.2.6-.5 2.2-.6 3.7-1.6 4.3-3.1a6 6 0 0 0 .3-2c0-1.3 0-1.6-.4-2.4-.8-1.6-2.1-2.6-4.5-3.2a26 26 0 0 0-7.3-.4L41.4.5v11.7Zm10.9-8.6c2.4.8 3.2 3.9 1.4 5.8-1 1-2 1.4-4.8 1.5h-2.6V3.4H49c1.8 0 2.7 0 3.4.2Zm16.1 8.2-4.6 11.7c-.1.3 0 .3 2.3.3h2.4l1.2-3.2 1.2-3.1h9.9l1.1 3.1 1.2 3.1 2.5.1H88L83.4 12 78.7.6H76l-3-.1-4.6 11.3ZM78 9.7l1.7 4.7h-7.5l3.7-10c.1-.1 0-.5 2 5.3Z"/>
+                                        </g>
+                                    </svg>
+                                </li>
+                                <li class="companies-logo lutron">
+                                    <picture>
+                                        <source type="image/avif" srcset="images/content/switches/lutron.avif">
+                                        <source type="image/webp" srcset="images/content/switches/lutron.webp">
+                                        <img src="images/content/switches/lutron.png" alt="Lutron-logo">
+                                    </picture>
+                                </li>
+                                <li class="companies-logo hdl">
+                                    <picture>
+                                        <source type="image/avif" srcset="images/content/switches/hdl.avif">
+                                        <source type="image/webp" srcset="images/content/switches/hdl.webp">
+                                        <img src="images/content/switches/hdl.png" alt="HDL-logo">
+                                    </picture>
+                                </li>
+                            </ul>
+                            <div class="switches__container">
+                                <article class="switches__description">
+                                    <h4 class="switches__subtitle visually-hidden">Покупайте выключатели</h4>
+                                    <p class="switches__text">
+                                        С умным домом MiMiSmart вы можете использовать абсолютно любые выключатели, даже из Леруа Мерлен за 500 рублей. <br> В нашем шоуруме вы сможете ознакомиться с разными линейками выключателей, в том числе специализирующихся на умных домах.
+                                    </p>
+                                    <button class="switches__btn">Записаться в шоурум</button>
+                                </article>
+                            </div>
+                        </section>
+                        <section class="application">
+                            <h3 class="application__title">Приложение</h3>
+                            <section class="manage">
+                                <h4 class="manage__title visually-hidden">Управляй мечтой</h4>
+                                <article class="card manage__light">
+                                    <h5 class="card__title">Управляй светом</h5>
+                                    <p class="card__description">Настраивай яркость света и цвета в любой комнате дома</p>
+                                    <picture class="card__pict">
+                                        <source type='image/avif' srcset='images/content/application/pad.avif'>
+                                        <source type='image/webp' srcset='images/content/application/pad.webp'>
+                                        <img src='images/content/application/pad.png' alt='pad'>
+                                    </picture>
+                                    <picture class="card__pictadd">
+                                        <source type='image/avif' srcset='images/content/application/iphone3.avif'>
+                                        <source type='image/webp' srcset='images/content/application/iphone3.webp'>
+                                        <img src='images/content/application/iphone3.png' alt='iphone'>
+                                    </picture>
+                                </article>
+
+                                <article class="card manage__climate">
+                                    <h5 class="card__title">Управляй климатом</h5>
+                                    <p class="card__description">Включай кондиционер, вентиляцию, настраивай нужную температуру в каждом помещении</p>
+                                    <picture class="card__pict">
+                                        <source type='image/avif' srcset='images/content/application/iphone.avif'>
+                                        <source type='image/webp' srcset='images/content/application/iphone.webp'>
+                                        <img src='images/content/application/iphone.png' alt='iphone'>
+                                    </picture>
+                                </article>
+
+                                <article class="card manage__multimedia">
+                                    <h5 class="card__title">Управляй мультимедиа</h5>
+                                    <p class="card__description">Включай все девайсы: телевизор, домашний кинотеатр, колонки с помощью телефона</p>
+                                    <picture class="card__pict">
+                                        <source type='image/avif' srcset='images/content/application/watch.avif'>
+                                        <source type='image/webp' srcset='images/content/application/watch.webp'>
+                                        <img src='images/content/application/watch.png' alt='watch'>
+                                    </picture>
+
+                                    <picture class="card__pictadd">
+                                        <source type='image/avif' srcset='images/content/application/iphone4.avif'>
+                                        <source type='image/webp' srcset='images/content/application/iphone4.webp'>
+                                        <img src='images/content/application/iphone4.png' alt='iphone'>
+                                    </picture>
+                                </article>
+
+                                <article class="card manage__security">
+                                    <h5 class="card__title">Управляй безопасностью</h5>
+                                    <p class="card__description">Приложение позволит в любое время суток в любом месте контролировать безопасность квартиры, дома, дачи, гаража</p>
+                                    <picture class="card__pict">
+                                        <source type='image/avif' srcset='images/content/application/iphone2.avif'>
+                                        <source type='image/webp' srcset='images/content/application/iphone2.webp'>
+                                        <img src='images/content/application/iphone2.png' alt='iphone'>
+                                    </picture>
+
+                                    <picture class="card__pictadd">
+                                        <source type='image/avif' srcset='images/content/application/iphone4.avif'>
+                                        <source type='image/webp' srcset='images/content/application/iphone4.webp'>
+                                        <img src='images/content/application/iphone4.png' alt='iphone'>
+                                    </picture>
+                                </article>
+                            </section>
+                        </section>
+                    </section>
+                
+                <section class="about" id="about-us">
+                    <div class="about__title title title--gap_24">
+                        <h2 class="title__text">О компании MiMiSmart</h2>
+                        <p class="title__text-addition">за 17 лет мы стали <span class = "black-line">самой покупаемой системой</span> умный дом в России</p>
+                    </div>
+                    <ul class="numbers">
+                        <li class="numbers__item title title--align">
+                            <h3 class="title__text title__text--color_bl">5000+</h3>
+                            <p class="title__text-addition title__text-addition--color_bl title__text-addition--width_227">реализованных проектов по всему миру на начало 2022 года</p>
+                        </li>
+
+                        <li class="numbers__item title title--align">
+                            <h3 class="title__text title__text--color_bl">400+</h3>
+                            <p class="title__text-addition title__text-addition--color_bl title__text-addition--width_227">дизайнеров и дилеров рекомендуют систему MimiSmart</p>
+                        </li>
+
+                        <li class="numbers__item title title--align">
+                            <h3 class="title__text title__text--color_bl">250+</h3>
+                            <p class="title__text-addition title__text-addition--color_bl title__text-addition--width_227">специалистов работают над развитием продукта MimiSmart </p>
+                        </li>
+
+                        <li class="numbers__item title title--align">
+                            <h3 class="title__text title__text--color_bl">50+</h3>
+                            <p class="title__text-addition title__text-addition--color_bl title__text-addition--width_227">успешно работающих филиалов по всему миру</p>
+                        </li>
+                    </ul>
+                </section>
+                
+                <section class="projects" id="completed-projects">
+                    <h2 class="projects__title">Реализованные проекты</h2>
+                    <div class="projects__list">
+                        <div class="project riverdale1">
+                            <div class="project__title title title--gap_33-align">
+                                <p class="title__text title__text--color title__text--fs-lh-fw">Квартира, ЖК Riverdale apartments</p>
+                                <p class="title__text-addition title__text-addition--color_w title__text-addition--fs-lh-fw s">Небольшая квартира с панорамным видом на набережную. Максимум комфорта с минимумом вложений.</p>
+                            </div>
+                            <div class="project__button-wrapper">
+                                <button class="project__btn">
+                                    <img class="project__arrow" src="images/background/projects/arrow.svg" alt="arrow">
+                                    <img class="project__big-arrow" src="images/background/projects/big-arrow.svg" alt="arrow">
+                                </button>
+                            </div>   
+                        </div>
+
+                        <div class="project four-kids">
+                            <div class="project__title title title--gap_33-align">
+                                <p class="title__text title__text--color title__text--fs-lh-fw">Просторная квартира для семьи с 4-мя детьми</p>
+                                <p class="title__text-addition title__text-addition--color_w title__text-addition--fs-lh-fw">Современный стиль и технологии создают уют для большой семьи.</p>
+                            </div>
+                            <div class="project__button-wrapper">
+                                <button class="project__btn">
+                                    <img class="project__arrow" src="images/background/projects/arrow.svg" alt="arrow">
+                                    <img class="project__big-arrow" src="images/background/projects/big-arrow.svg" alt="arrow">
+                                </button>
+                            </div>   
+                        </div>
+
+                        <div class="project riverdale2">
+                            <div class="project__title title title--gap_33-align">
+                                <p class="title__text title__text--color title__text--fs-lh-fw">Квартира, ЖК Riverdale apartments</p>
+                                <p class="title__text-addition title__text-addition--color_w title__text-addition--fs-lh-fw">Небольшая квартира с панорамным видом на набережную. Максимум комфорта с минимумом вложений.</p>
+                            </div>
+                            <div class="project__button-wrapper">
+                                <button class="project__btn">
+                                    <img class="project__arrow" src="images/background/projects/arrow.svg" alt="arrow">
+                                    <img class="project__big-arrow" src="images/background/projects/big-arrow.svg" alt="arrow">
+                                </button>
+                            </div>   
+                        </div>
+                        <picture class="projects__slider slider">
+                            <source type='image/avif' srcset='images/background/projects/Slider.avif'>
+                            <source type='image/webp' srcset='images/background/projects/Slider.webp'>
+                            <img src='images/background/projects/Slider.png' alt='slider'>
+                        </picture>
+                    </div>
+                    
+                    <button class="projects__view">Смотреть все проекты</button>
+
+                    <ul class="companies companies--gap_30">
+                        <li class="companies-logo">
+                            <picture>
+                                <source type="image/avif" srcset="images/content/companies/vimar.avif">
+                                <source type="image/webp" srcset="images/content/companies/vimar.webp">
+                                <img src="images/content/companies/vimar.png" alt="Vimar-logo">
+                            </picture>
+                        </li>
+                        <li class="companies-logo">
+                            <picture>
+                                <source type="image/avif" srcset="images/content/companies/schneider.avif">
+                                <source type="image/webp" srcset="images/content/companies/schneider.webp">
+                                <img src="images/content/companies/schneider.png" alt="Schneider-logo">
+                            </picture>
+                        </li>
+                        <li class="companies-logo">
+                            <picture>
+                                <source type="image/avif" srcset="images/content/companies/somfy.avif">
+                                <source type="image/webp" srcset="images/content/companies/somfy.webp">
+                                <img src="images/content/companies/somfy.png" alt="Somfy-logo">
+                            </picture>
+                        </li>
+                        <li class="companies-logo">
+                            <picture>
+                                <source type="image/avif" srcset="images/content/companies/центрсвет.avif">
+                                <source type="image/webp" srcset="images/content/companies/центрсвет.webp">
+                                <img src="images/content/companies/центрсвет.png" alt="Центрсвет-logo">
+                            </picture>
+                        </li>
+                        <li class="companies-logo">
+                            <picture>
+                                <source type="image/avif" srcset="images/content/companies/bticino.avif">
+                                <source type="image/webp" srcset="images/content/companies/bticino.webp">
+                                <img src="images/content/companies/bticino.png" alt="Bticino-logo">
+                            </picture>
+                        </li>
+                        <li class="companies-logo">
+                            <picture>
+                                <source type="image/avif" srcset="images/content/companies/mail.avif">
+                                <source type="image/webp" srcset="images/content/companies/mail.webp">
+                                <img src="images/content/companies/mail.png" alt="Mail-logo">
+                            </picture>
+                        </li>
+                        <li class="companies-logo">
+                            <picture>
+                                <source type="image/avif" srcset="images/content/companies/яндекс.avif">
+                                <source type="image/webp" srcset="images/content/companies/яндекс.webp">
+                                <img src="images/content/companies/яндекс.png" alt="Яндекс-logo">
+                            </picture>
+                        </li>
+                    </ul>
+                </section>
+                
+                <section class="showroom">
+                    <div class="showroom__title title title--gap_24">
+                        <h2 class="title__text">Приглашаем <br> в шоурум</h2>
+                        <p class="title__text-addition">Мы побывали в десятках лучших шоурумах мира и каждый раз дополняли свой функционал самыми интересными решениями.</p>
+                    </div>
+                    <div class="showroom__pictures">
+                        <picture class="showroom__picture">
+                            <source type="image/avif" srcset="images/content/showroom/showroom.avif">
+                            <source type="image/webp" srcset="images/content/showroom/showroom.webp">
+                            <img src="images/content/showroom/showroom.png" alt="Showroom">
+                        </picture>
+                        <picture class="showroom__slider slider">
+                            <source type='image/avif' srcset='images/background/showroom/Slider.avif'>
+                            <source type='image/webp' srcset='images/background/showroom/Slider.webp'>
+                            <img src='images/background/showroom/Slider.png' alt='slider'>
+                        </picture>
+                    </div>
+                    <div class="showroom__activities">
+                        <div class="activity title title--gap_12">
+                            <h3 class="title__text title__text--fs-lh_normal">Узнайте про функционал</h3>
+                            <p class="title__text-addition">Какие функции вам действительно необходимы, а на чем можно сэкономить.</p>
+                        </div>
+                        <div class="activity title title--gap_12">
+                            <h3 class="title__text title__text--fs-lh_normal">Познакомьтесь с системой</h3>
+                            <p class="title__text-addition">Какие функции вам действительно необходимы, а на чем можно сэкономить.</p>
+                        </div>
+                        <div class="activity title title--gap_12">
+                            <h3 class="title__text title__text--fs-lh_normal">Выберите выключатели</h3>
+                            <p class="title__text-addition">Какие функции вам действительно необходимы, а на чем можно сэкономить.</p>
+                        </div>
+                    </div>
+                    <form class="form" action="#" method="get">
+                        <h3 class="form__title">Когда вы хотите посетить шоурум?</h3>
+                        <div class="form__items">
+                            <div class="form__item">
+                                <label for="name">Ваше имя*</label>
+                                <input type="text" name="name" id="name" value="" placeholder="Имя">
+                                <pre class="form__text"> *обязательные поля</pre>
+                            </div>
+                            <div class="form__item">
+                                <label for="phone">Ваш телефон*</label>
+                                <input type="tel" name="phone" id="phone" value="" placeholder="+7 900 123 00 00">
+                            </div>
+                            <div class="form__item">
+                                <label for="email">Ваша почта</label>
+                                <input type="email" name="email" id="email" value="" placeholder="Example@mail.ru">
+                            </div>
+                            <div class="form__item">
+                                <label for="date">Дата</label>
+                                <input type="text" name="date" id="date" value="" placeholder="20.01.12">
+                                <div class="date-check">
+                                    <input type="checkbox" name="check" id="check" value="no">
+                                    <label for="check">Не определился</label>
+                                </div>
+                            </div>
+                            <input type="submit" value="Записаться в шоурум" class="submit">
+                        </div>
+                    </form>
+                    <div class="showroom__visit">
+                        <h3 class="showroom__subtitle">Если у вас нет времени посетить шоурум</h3>
+                        <div class="showroom__variants">
+                            <div class="showroom__variant variant">
+                                <div class="variant__description title title--gap_12">
+                                    <h4 class="title__text title__text--fs-lh_normal">Демонстрационный чемоданчик</h4>
+                                    <p class="title__text-addition">Можем выехать на объект с ним и продемонстрировать как работает умный дом</p>
+                                </div>
+                                <picture class="variant__picture">
+                                    <source type="image/avif" srcset="images/content/showroom/suitcase.avif">
+                                    <source type="image/webp" srcset="images/content/showroom/suitcase.webp">
+                                    <img class="variant__img" src="images/content/showroom/suitcase.png" alt="suitcase">
+                                </picture>
+                            </div>
+                            <div class="showroom__variant variant">
+                                <div class="variant__description title title--gap_12">
+                                    <h4 class="title__text title__text--fs-lh_normal">Дистанционная демонстрация системы</h4>
+                                    <p class="title__text-addition">Покажем как работает умный дом через Zoom, Skype или любой удобный вам сервис</p>
+                                </div>
+                                <picture class="variant__picture">
+                                    <source type="image/avif" srcset="images/content/showroom/computer.avif">
+                                    <source type="image/webp" srcset="images/content/showroom/computer.webp">
+                                    <img class="variant__img" src="images/content/showroom/computer.png" alt="demo">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            
+            <footer class="footer">
+                <iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.500224970977!2d37.623063777200315!3d55.69767629623543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b5aa5526359%3A0x4e2a2a1c20e3981f!2z0KPQvNC90YvQuSDQtNC-0LwgTWlNaVNtYXJ0!5e0!3m2!1sru!2sru!4v1692184967245!5m2!1sru!2sru" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <section class="info" id="contact-us">
+                    <div class="info__socials">
+                        <h2 class="logo"><span class="logo__blue">MiMi</span>Smart</h2>
+                        <ul class="socials">
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <svg class="socials__icon">
+                                        <use xlink:href="images/content/footer/Socials.svg#telegram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <svg class="socials__icon">
+                                        <use xlink:href="images/content/footer/Socials.svg#instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a href="#" class="socials__link">
+                                    <svg class="socials__icon">
+                                        <use xlink:href="images/content/footer/Socials.svg#youtube"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="info__contacts-address">
+                        <div class="info__cluster">
+                            <h3 class="info__title">Контакты</h3>
+                            <div class="info__item">
+                                <svg class="info__icon">
+                                    <use xlink:href="images/content/footer/Icons.svg#phone"></use>
+                                </svg>
+                                <p class="info__text">8 800 505-20-53</p>
+                            </div>
+                            <div class="info__item">
+                                <svg class="info__icon">
+                                    <use xlink:href="images/content/footer/Icons.svg#mail"></use>
+                                </svg>
+                                <p class="info__text">msk@mimismart.ru</p>
+                            </div>
+                        </div>
+
+                        <div class="info__cluster">
+                            <h3 class="info__title">Как к нам добраться?</h3>
+                            <div class="info__item">
+                                <svg class="info__icon">
+                                    <use xlink:href="images/content/footer/Icons.svg#address"></use>
+                                </svg>
+                                <p class="info__text">г. Москва,</p>
+                            </div>
+                            <p class="info__text address-addition">Новоданиловская наб., 6к1</p>
+                        </div>
+                    </div>
+                </section>
+            </footer>
+        </div>
+    </body>
+    </html>

@@ -1,0 +1,124 @@
+.application {
+    padding: 80px 40px 116px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    color: var(--ffffff, #FFF);
+}
+
+.application__title {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 95.833% */
+}
+
+.manage {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.card {
+    flex: 1 1 590px;
+    min-height: 440px;
+    padding: 40px 0 0 40px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card__title {
+    max-width: 320px;
+    font-family: 'Montserrat';
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 94.737% */
+}
+
+.card__description {
+    max-width: 300px;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px; /* 123.529% */
+}
+
+.manage__light {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.00) 100%), url(../images/background/application/light.jpeg) 0px -386.233px / 100% 187.773% no-repeat;
+}
+
+.card picture {
+    display: block;
+    position: absolute;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.manage__light .card__pict {
+    width: 524px;
+    height: 858px;
+    top: -101px;
+    right: -13.63%;
+}
+
+.manage__climate {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.00) 100%), url(../images/background/application/climate.png) 0px -353.666px / 100% 201.112% no-repeat;
+}
+
+.manage__climate .card__pict{
+    width: 285px;
+    height: 393px;
+    bottom: -126px;
+    right: 13px;
+}
+
+
+.manage__multimedia {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.00) 100%), url(../images/background/application/multimedia.jpeg) 50% / cover no-repeat;
+}
+
+.manage__multimedia .card__pict {
+    width: 194px;
+    height: 318px;
+    bottom: -52px;
+    right: 58px;
+}
+
+.manage__security {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.80) 0%, rgba(0, 0, 0, 0.00) 100%), url(../images/background/application/security.jpeg) 50% / cover no-repeat;
+}
+
+.manage__security .card__pict {
+    width: 285px;
+    height: 393px;
+    bottom: -126px;
+    right: 13px;
+}
+
+.card__pictadd {
+    width: 285px;
+    height: 393px;
+    bottom: -126px;
+    right: 13px;
+    visibility: hidden;
+}
+
+.card:hover .card__pict {
+    transition: .2s;
+    transform: scale(1.1);
+}

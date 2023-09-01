@@ -1,0 +1,83 @@
+.sensors {
+    width: 100%;
+    padding: 78px 45px 82px 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: start;
+    color: var(--ffffff, #FFF);
+    z-index: 1;
+}
+
+.sensors__title {
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px; /* 95.833% */
+}
+
+.sensors__kinds {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sensor {
+    padding: 187px 42px 0 42px;
+    height: 480px;
+    flex: 0 0 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-radius: 30px;
+    // background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(132px);
+    transition: .5s;
+}
+
+.sensor__title {
+    max-width: 239px;
+    font-family: 'Montserrat';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sensor__description {
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px; /* 123.529% */
+    align-self: center;
+}
+
+.movement {
+    background: url("../images/background/sensors/movement.png") no-repeat top right / 132px 278px, rgba(255, 255, 255, 0.05);
+}
+
+.leak {
+    background: url("../images/background/sensors/water.png") no-repeat top right / 295px 304px, url("../images/background/sensors/water2.png") no-repeat top 8px left 18px/308px 195px, rgba(255, 255, 255, 0.05);
+}
+
+.temperature {
+    background: url("../images/background/sensors/temperature.png") no-repeat top -15px left -13px / 628px 278px,  rgba(255, 255, 255, 0.05);
+}
+
+.movement:hover {
+    background: linear-gradient(180deg, rgba(48, 49, 55, 0.00) 0%, rgba(0, 0, 0, 0.35) 54.5%, rgba(0, 0, 0, 0.49) 100%), url("../images/background/sensors/back.jpeg") -18.25px -5.101px / 109.605% 115.694% no-repeat, rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(132px);
+}
+
+.leak:hover {
+    background: linear-gradient(180deg, rgba(48, 49, 55, 0.00) 0%, rgba(0, 0, 0, 0.35) 54.5%, rgba(0, 0, 0, 0.49) 100%), url("../images/background/sensors/back.jpeg") -18.25px -5.101px / 109.605% 115.694% no-repeat, rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(132px);
+}
+
+.temperature:hover {
+    background: linear-gradient(180deg, rgba(48, 49, 55, 0.00) 0%, rgba(0, 0, 0, 0.35) 54.5%, rgba(0, 0, 0, 0.49) 100%), url("../images/background/sensors/back.jpeg") -18.25px -5.101px / 109.605% 115.694% no-repeat, rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(132px);
+}

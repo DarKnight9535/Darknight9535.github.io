@@ -1,0 +1,1289 @@
+@media (max-width: 1439px) {
+    //DECISIONS
+    .village {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url('../images/background/decisions/village.jpeg') 0px -10px / 100% 125% no-repeat;
+    }
+
+    //RULE
+    .rule__title {
+        align-items: center;
+        text-align: center;
+        position: static;
+    }    
+
+    //ABOUT
+    .numbers {
+        gap: 30px;
+    }
+}
+
+//-------------------------------------------------------------------------------
+
+@media (max-width: 1430px) {
+    .page {
+        background: #EEE;
+    }
+    .head, .functionality, .decisions, .application, .about {
+        padding-left: calc(100vw * 0.058 - 13.52px);
+        padding-right: calc(100vw * 0.058 - 13.52px);
+    }
+
+    //HOUSE-PRICE
+    .switch {
+        display: none;
+    }
+
+    .main {
+        overflow: hidden;
+    }
+
+    .na-cards {
+        display: flex;
+    }
+
+    //FUNCTIONALITY
+    .functionality {
+        padding-top: 0;
+    }
+
+    //RULE
+    .rule {
+        padding: 120px 0 120px 40px;
+        gap: 0;
+    }
+
+    //SHOWROOM
+    .variant {
+        flex-shrink: 1;
+    }
+}
+
+//-------------------------------------------------------------------------------
+
+@media (max-width: 1320px) {
+    //RULE
+    .rule {
+        gap: 40px;
+    }
+
+    //ABOUT
+    .numbers {
+        gap: 75px;
+        justify-content: space-evenly;
+    }
+
+    .numbers__item {
+        flex-direction: row;
+    }
+
+    //SHOWROOM
+    .showroom__pictures, .showroom__picture {
+        height: 56vw;
+    }
+
+    //FEATURES__PICTURES
+    .pad {
+        width: 83%;
+        max-height: 90%;
+        left: 27.6%;
+        bottom: -2%;
+    }
+
+    .smartphone {
+        width: 36%;
+        height: 100%;
+        right: 6%;
+        bottom: -31%;
+    }
+
+    .watch {
+        width: 18%;
+        height: 100%;
+        right: 33%;
+        bottom: -38%;
+    }
+}
+
+//-------------------------------------------------------------------------------
+
+@media (max-width: 1195px) {
+    .head {
+        justify-content: center;
+    }
+
+    //AUTOMATIZATION
+    .automatization {
+        width: 100%;
+    }
+
+    .kind {
+        padding: 52px 34px;
+    }
+}
+
+//-------------------------------------------------------------------------------
+
+@media (max-width: 1130px) {
+    //GUARANTEE
+    .guarantee {
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+        max-height: 590px;
+        background: url(../images/background/guarantee/gradient.jpeg) no-repeat left 30% center/cover;
+    }
+
+    .title--gap-align {
+        gap: 24px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .guarantee__picture-set {
+        top: -67px;
+        left: 193px;
+    }
+
+    .guarantee__button {
+        background: var(--444444, #444);
+        color: var(--FFFFFF, #FFF);
+        z-index: 2;
+    }
+    
+    .guarantee__button:hover {
+        background: var(--2-a-2-a-2-a, #2A2A2A);
+    }
+    
+    .guarantee__button:active {
+        background: var(--00-b-7-ff, #00B7FF);  
+    }
+
+    //SHOWROOM
+    .showroom {
+        gap: 40px;
+    }
+
+    //FORM
+    .form::before {
+        display: none;
+    }
+
+    //SHOWROOM
+    .showroom__variants {
+        flex-wrap: wrap;
+    }
+
+    .kind {
+        padding: 32px 27px;
+    }
+}
+
+//-------------------------------------------------------------------------------
+
+@media (max-width: 1060px) {
+    .kind__icon {
+        border-radius: 10px;
+    }
+
+    .garage-icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .ventilation-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .pump-icon, .temperature-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .lock-icon {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+//-------------------------------------------------------------------------------
+
+@media (max-width: 1025px) {
+    //DECISIONS
+    .village {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url(../images/background/decisions/village.jpeg) -50.667px 0px/125.49% 100% no-repeat;
+    }
+
+    //AUTOMATIZATION
+    .automatization::before {
+        width: 100%;
+    }
+
+    //SHOWROOM
+    .showroom__activities {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    //INFO
+    .info {
+        padding: 80px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .info__socials {
+        align-items: center;
+    }
+
+    .info__contacts-address {
+        flex-direction: column;
+        gap: 80px;
+        align-items: center;
+    }
+
+    .info__cluster {
+        align-items: center;
+    }
+
+    .info__title {
+        font-weight: 700;
+        margin-bottom: 7.5px;
+    }
+
+    .info__text {
+        margin-top: 2px;
+    }
+
+    //FUNCTIONALITY__PICTURES    
+    .address-addition {
+        margin-top: 0.5px;
+    }
+
+    .climate {
+        width: 100%;
+        height: 95%;
+        bottom: -20%;
+        right: -36%;
+    }
+
+    .kind {
+        padding: 22px 22px;
+    }
+}
+
+//------------------------------------------------------------------------------
+
+@media (max-width: 890px) {
+    .phone {
+        display: none;
+    }
+
+    .head__button {
+        display: block;
+    }
+
+    .head {
+        justify-content: space-between;
+        position: relative;
+        z-index: 3;
+    }
+
+    .nav {
+        position: fixed;
+        padding: 60px 20px;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        right: -100%;
+        background: rgba(252, 252, 252, 0.9);
+        transition: right .2s;
+        transform: scale(0);
+        z-index: 2;
+        // display: none;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: start;
+        flex-wrap: wrap;
+    }
+
+    .menu__item {
+        padding: 8px 0;
+    }
+
+    .menu__link {
+        line-height: normal;
+    }
+
+    //HOUSE-PRICE    
+    .house-price__title {
+        max-width: 361px;
+        color: var(--444444, #444);
+        top: 52px;
+        gap: 20px;
+    }
+
+    .house-price__title .title__text {
+        font-size: 48px;
+        line-height: normal;
+    }
+
+    .house-price__title .title__text-addition {
+        color: #2A2A2A;
+        line-height: 22px;
+    }
+
+    .house-price__btn {
+        margin-top: 10px;
+    }
+
+    //FUNCTIONALITY
+    .functionality {
+        gap: 40px;
+    }
+
+    .functionality__title {
+        max-width: 280px;
+    }
+
+    .title__text-addition {
+        margin-top: -6px;
+    }
+
+    .title__text {
+        color: #212121;
+        font-size: 30px;
+        line-height: normal;
+    }
+
+    .title__text-addition {
+        color: #252525;
+    }
+    
+    .functionality__kinds {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .kind {
+        padding: 20px;
+        height: 260px;
+        gap: 8px;
+    }
+
+    .kind__title {
+        color: #212121;
+        font-size: 24px;
+        line-height: normal;
+    }
+    
+    .kind__list {
+        color: #535353;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .messages {
+        display: none;
+    }
+
+    //DECISIONS
+    .decisions {
+        gap: 40px;
+        padding-bottom: 80px;
+    }
+    .decisions__title {
+        max-width: 280px;
+    }
+
+    .decisions__title .title__tag {
+        display: block;
+    }
+
+    .decisions__kinds {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .decisions__kind {
+        min-height: 57vw;
+        padding: 20px 26px 17px 20px;
+    }
+
+    .decisions__for {
+        max-width: 100%;
+        font-size: 28px;
+    }
+
+    .village {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url('../images/background/decisions/village.jpeg') 0px -10px / 100% 125% no-repeat;
+    }
+
+    //GUARANTEE
+    .guarantee__title {
+        max-width: 310px;
+    }
+    .guarantee__title .title__text {
+        font-size: 48px;    
+        line-height: 46px; /* 95.833% */
+    }
+
+    .guarantee__title .title__text-addition {
+        color: #1D1D1D;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 0;
+    }
+
+    //RULE {
+    .rule {
+        padding: 80px 0;
+    }
+
+    .rule__title {
+        max-width: 320px;
+    }
+
+    .rule__title .title__text {
+        max-width: 220px;
+    }
+
+    .feature__title {
+        color: #444;
+        font-size: 24px;
+    }
+
+    .feature__text {
+        color: #535353;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+
+    .feature__link {
+        color: #444;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .video-link:after {
+        display: none;
+    }
+
+    //ALGORITHM
+    .algorithm__title *, .switches__title * {
+        color: var(--ffffff, #FFF);
+    }
+
+    .algorithm__title {
+        max-width: 305px;
+    }
+
+    .algorithm__title .title__text-addition {
+        font-weight: 400;
+    }
+
+    .algorithm__scheme {
+        grid-column-gap: 12px;
+    }
+
+    .sensors {
+        display: none;
+    }
+
+    //SWITCHES
+    .switches {
+        padding-top: 80px;  
+    }
+
+    .switches__title {
+        max-width: 600px;
+        gap: 8px;
+    }
+
+    .switches__options {
+        margin-top: 8px;
+        padding: 0 50px;
+    }
+
+    .automatization .companies {
+        // max-height: 178px;
+        // flex-direction: column;
+        justify-content: center;
+        padding: 0 40px; 
+        gap: 20px;
+    }
+
+    .switches__container {
+        width: 95%;
+        flex: 1 0 52vw;
+        border-radius: 20px;
+    }
+
+    .switches__text {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    //APPLICATION
+    .application__title {
+        font-size: 30px;
+        line-height: normal;
+    }
+
+    .card__title {
+        font-size: 24px;
+    }
+    
+    .card__description {
+        max-width: 240px;
+        line-height: normal;
+        font-weight: 300;
+    }
+
+    //ABOUT
+    .about__title {
+        max-width: 375px;
+        gap: 20px;
+    }
+
+    .about__title .title__text-addition {
+        margin-top: 0;
+        color: #878787;
+    }
+
+    .black-line {
+        color: #252525;
+    }
+
+    //PROJECTS
+    .projects {
+        width: 100%;
+        padding: 80px 0;
+    }
+
+    .projects__title {
+        max-width: 400px;
+        color: #212121;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: normal
+    }
+
+    .projects__list {
+        padding-left: 4%;
+    }
+    
+    .project {
+        padding-top: 167px;
+        max-width: 320px;
+    }
+
+    .project * {
+        color: var(--ffffff, #FFF);
+    }
+
+    .project__title {
+        padding-left: 12px;
+        gap: 20px;
+        align-items: start;
+    }
+
+    .project__title .title__text {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .project__title .title__text-addition {
+        margin-top: 0;
+        font-size: 15px;
+        line-height: normal;
+        font-weight: 300;
+    }
+
+    .project__button-wrapper {
+        max-height: 100px;
+    }
+
+    .project__btn {
+        width: 100%;
+        padding: 12px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .projects__slider {
+        bottom: -8%;
+        left: 4%;
+    }
+
+    .riverdale1 {
+        background: linear-gradient(180deg, rgba(48, 49, 55, 0.00) 0%, rgba(0, 0, 0, 0.50) 54.50%, rgba(0, 0, 0, 0.70) 100%), url("../images/background/projects/riverdale1.png") 50% / cover no-repeat;
+    }
+
+    .projects__view {
+        margin-bottom: 40px;
+    }
+
+    .project__arrow {
+        display: none;
+    }
+
+    .project__big-arrow {
+        display: block;
+    }
+
+    .projects .companies {
+        padding: 0 40px;
+    }
+
+    .projects .companies picture {
+        width: 160px;
+        height: 40px;
+    }
+
+    .companies picture img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    //SHOWROOM
+    .showroom {
+        padding: 0 0 128px 0;
+    }
+
+    .showroom__picture img {
+        border-radius: 20px;
+    }
+
+    //SHOWROOM
+    .showroom__activities {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .activity {
+        max-width: 360px;
+        gap: 8px;
+    }
+
+    .activity .title__text {
+        font-size: 20px;
+    }
+
+    .activity .title__text-addition {
+        margin: 0;
+        font-size: 15px;
+        line-height: normal;
+    }
+
+    //SHOWROOM
+    .showroom__visit {
+        gap: 40px;
+    }
+
+    .showroom__subtitle {
+        max-width: 380px;
+        color: #212121;
+        font-size: 24px;
+        line-height: normal; /* 94.737% */
+    }
+
+    .showroom__variants {
+        gap: 20px;
+    }
+
+    .variant {
+        padding: 32px 20px;
+        gap: 32px;
+    }
+
+    .variant__description {
+        max-width: none;
+        gap: 8px;
+    }
+
+    .variant__description .title__text {
+        max-width: 300px;
+        font-size: 20px;
+    }
+
+    .variant__description .title__text-addition {
+        margin: 0;
+        font-size: 15px;
+        font-weight: 400;
+        // max-width: 360px;
+    }
+
+    //FEATURES__PICTURES
+    .group {
+        width: 106%;
+        height: 100%;
+        position: absolute;
+        top: 2%;
+        left: 2%;
+    }
+
+    //APPLICATION
+    .manage {
+        gap: 20px;
+    }
+
+    .manage__light .card__pict {
+        display: none;
+    }
+
+    .manage__light .card__pictadd {
+        visibility: visible;
+        width: 100%;
+        height: 100%;
+        bottom: -48%;
+        right: -21%;
+    }
+
+    .manage__climate .card__pict {
+        width: 100%;
+        height: 100%;
+        bottom: -48%;
+        right: -21%;
+    }
+
+    .manage__multimedia .card__pict {
+        display: none;
+    }
+
+    .manage__multimedia .card__pictadd {
+        visibility: visible;
+        width: 100%;
+        height: 100%;
+        bottom: -48%;
+        right: -21%;
+    }
+
+    .manage__security .card__pict {
+        display: none;
+    }
+
+    .manage__security .card__pictadd {
+        visibility: visible;
+        width: 100%;
+        height: 100%;
+        bottom: -48%;
+        right: -21%;
+    }
+
+    //FUNCTIONALITY__PICTURES
+    .garage-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .ventilation-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .pump-icon, .temperature-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .lock-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    //FUNCTIONALITY
+    .kind__btn {
+        display: block;
+    }
+
+    .security .kind__list .kind__item:first-child {
+        display: none;
+    }
+
+    .curtains .kind__list {
+        display: none;
+    }
+
+    .curtains__text {
+        display: block;
+    }
+
+    .head__hidden-menu:checked ~ .head__button {
+        transform: translateX(calc(-100vw / 2 + 9vh));
+    }
+}
+
+
+//----------------------------------------------------------------
+@media (max-width: 815px) {
+    //ABOUT
+    .about {
+        gap: 40px;
+    }
+
+    .numbers {
+        flex-direction: column;
+    }
+
+    .numbers__item {
+        justify-content: space-between;
+    }
+
+    .numbers__item .title__text{
+        color: #444;
+        font-size: 48px;
+        line-height: 46px;
+    }
+
+    .numbers__item .title__text-addition{
+        color: #535353;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    //FUNTIONALITY__PICTURES
+    .tv {
+        width: 79%;
+        height: 88%;
+        bottom: -7%;
+        right: -26%;
+    }
+
+    .funphone {
+        width: 43%;
+        height: 100%;
+        bottom: -32%;
+        right: 0;
+    }
+
+    .media1 {
+        width: 42%;
+        height: 100%;
+        position: absolute;
+        bottom: -37%;
+        right: -23%;
+    }
+
+    .media2 {
+        width: 11%;
+        height: 100%;
+        position: absolute;
+        bottom: -39%;
+        right: 27%;
+    }
+
+    .camera {
+        width: 40%;
+        height: 42%;
+        bottom: 52%;
+        right: -11%;
+    }
+
+}
+
+//----------------------------------------------------------------
+
+@media (max-width: 620px) {
+    .flat {
+        background: url('../images/background/decisions/flat.jpeg') 50% / cover no-repeat, lightgray;
+    }
+
+    //GUARANTEE
+    .guarantee {
+        min-height: 784px;
+        padding: 40px 10px;
+        border-radius: 20px;
+    }
+
+    .title--gap-align {
+        gap: 24px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .guarantee__picture-set {
+        top: -119px;
+        left: -24px;
+    }
+
+    .ellipse-3 {
+        top: 349px;
+        left: 421px;
+    }
+
+    .guarantee__picture {
+        position: absolute;
+        top: 70px;
+        left: 69px;
+    }
+
+    //RULE
+    .features {
+        flex: 1 1 869px;
+        grid-template-rows: repeat(4, 232px);
+        grid-template-columns: 40.5% 9% 9% 40.5%;
+    }
+    
+    .big-cell {
+        grid-column: span 3;
+    }
+
+    .average-cell {
+        grid-column: span 2;
+    }
+
+    .feature {
+        padding: 20px 0 0 10px;
+    }
+
+    .feature.big-cell * {
+        max-width: 240px;
+    }
+
+    //AUTOMATIZATION
+    .automatization {
+        background: var(--2-a-2-a-2-a, #2A2A2A);
+    }
+
+    .automatization::before {
+        display: none;
+    }
+
+    //SWITCHES
+    .switches {
+        padding-bottom: 237px;
+    }
+    .switches__title {
+        max-width: 360px;
+        gap: 8px;
+    }
+
+    .switches__description {
+        position: absolute;
+        bottom: 1.5%;
+        left: 2.5%;
+        right: 1.5%;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .switches__text {
+        max-width: 400px;
+        line-height: 18px;
+    }
+
+    //APPLICATION
+    .application__title {
+        display: none;
+    }
+
+    .card {
+        border-radius: 20px;
+        padding: 20px 0 0 20px;
+        min-height: 95vw;
+    }
+
+    .manage__light {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.00) 100%), url(../images/background/application/light.jpeg) 50% / cover no-repeat;
+    }
+
+    .manage__climate {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.00) 100%), url(../images/background/application/climate.png) 50% / cover no-repeat;
+    }
+
+    //PROJECTS
+    .projects .companies {
+        width: 100%;
+        flex-direction: column;
+        max-height: 280px;
+        gap: 40px;
+        align-items: center;
+    }
+
+    //SHOWROOM
+    .showroom__title {
+        gap: 8px;
+        max-width: 380px;
+    }
+
+    .showroom__title .title__text {
+        line-height: 46px;
+    }
+
+    .showroom__title .title__text-addition {
+        margin-top: 0;
+    }
+
+    .showroom__slider{
+        margin: 0;
+        position: absolute;
+        bottom: 9.5%;
+        left: 34%;
+    }
+
+    //FORM
+    .form {
+        width: 95%;
+        border-radius: 20px;
+        background: linear-gradient(88deg, rgba(255, 153, 0, 0.00) 32.28%, rgba(255, 153, 0, 0.30) 102.7%), linear-gradient(295deg, rgba(0, 240, 255, 0.00) 39.93%, rgba(0, 178, 255, 0.30) 98.3%), #E8E8E8;
+        backdrop-filter: blur(11px);
+        gap: 24px;
+        padding: 32px 20px 73px 20px;
+    }
+
+    .form__items {
+        width: 100%;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .form__title {
+        color: #212121;
+        font-size: 30px;
+        line-height: normal;
+        max-width: 420px;
+    }
+
+    .form__item {
+        width: 100%;
+    }
+
+    input, .submit {
+        width: 100%;
+    }
+
+    input[type="checkbox"] {
+        width: 24px;
+    }
+
+    .form__text {
+        color: var(--A4A4A4, #A4A4A4);
+        font-size: 14px;
+        line-height: 17px;
+        position: absolute;
+        bottom: 4%;
+    }
+
+    .variant {
+        max-height: 314px;
+    }
+
+    //FEATURES__PICTURES
+    .controls {
+        width: 88%;
+        height: 100%;
+        right: -2%;
+        bottom: -3%;
+    }
+
+    .speaker1 {
+        width: 40%;
+        height: 100%;
+        right: 11%;
+        bottom: 0;
+    }
+
+    .speaker2 {
+        width: 74%;
+        bottom: -1px;
+        right: 35%;
+        height: 100%;
+    }
+
+    .speaker3 {
+        width: 79%;
+        bottom: 9%;
+        right: 13%;
+    }
+
+    .speaker4 {
+        width: 25%;
+        height: 100%;
+        right: 9%;
+        bottom: -24%;
+    }
+
+    .pad {
+        width: 107%;
+        max-height: 100%;
+        left: 9.6%;
+        bottom: -2%;
+    }
+
+    .lock {
+        width: 39%;
+        height: 100%;
+        bottom: -11%;
+        right: 10%;
+    }
+
+    .camera {
+        width: 50%;
+        height: 31%;
+    }
+
+    .lamp {
+        width: 56%;
+        height: 93%;
+        bottom: -48px;
+        right: -13.325%;
+    }
+
+    .lamp2 {
+        width: 30%;
+        height: 100%;
+        bottom: -35%;
+        right: 13%;
+    }
+
+    //ALGORITHM
+    .algorithm {
+        border-radius: 20px;
+        padding-top: 42px;
+        padding-left: 6px;
+        gap: 49px;
+    }
+
+    .head__hidden-menu:checked ~ .head__button {
+        transform: translateX(calc(-50vw + 8vh));
+    }
+}
+
+//----------------------------------------------------------------
+
+@media (max-width: 585px) {
+    //HOUSE-PRICE
+    .house-price {
+        padding-top: calc(100vw * -0.408 + 601.52px);
+        background: url(../images/background/main/net.png) no-repeat left -8px bottom 318px/342% 107%, url(../images/background/main/gradient.png) no-repeat left -297px/cover;
+        // max-height: 100vw;
+    }
+
+    .house-price__title {
+        max-width: 361px;
+        color: var(--444444, #444);
+        top: 80px;
+    }
+
+    .house-price__choice {
+       background: url("../images/background/house-price/back.jpeg") no-repeat bottom -101px right -72px/136% 154%;
+       height: calc(100vw + 25px);
+    }
+
+    .automatization .companies {
+        max-height: 178px;
+        flex-direction: column;
+        justify-content: start;
+        padding: 0 40px; 
+        gap: 20px;
+    }
+
+    .lutron {
+        margin-top: -12px;
+    }
+
+    //PROJECTS
+    .projects__slider {
+        bottom: -7%;
+        left: 4%;
+    }
+
+    //FUNCTIONALITY__PICTURES
+    .tv {
+        height: 62%;
+    }
+
+    .garage-icon {
+        width: 50px;
+        height: 50px;
+        top: 17%;
+        right: 36%;
+    }
+
+    .ventilation-icon {
+        border-radius: 5px;
+        width: 20px;
+        height: 20px;
+        top: 16%;
+        right: 73%;
+    }
+
+    .ventilation-icon::after {
+        top: 0px;
+        left: 3px;
+    }
+
+    .pump-icon{
+        border-radius: 8px;
+        width: 27px;
+        height: 27px;
+        top: 3%;
+        right: 45%;
+    }
+
+    .pump-icon::after {
+        top: 5px;
+        left: 7px;
+    }
+
+    .lock-icon {
+        width: 35px;
+        height: 35px;
+        top: 4%;
+        right: 6%;
+    }
+
+    .temperature-icon {
+        border-radius: 8px;
+        width: 27px;
+        height: 27px;
+        top: 32%;
+        right: 6%;
+    }
+
+    .temperature-icon::after {
+        top: 5px;
+        left: 7px;
+    }
+}
+
+//----------------------------------------------------------------
+
+@media (max-width: 450px) {
+    //PROJECTS
+    .projects__list {
+        padding-left: 12%;
+    }
+    .projects__slider {
+        bottom: -4%;
+        left: 10.5%;
+    }
+
+    //FUNCTIONALITY__PICTURES
+    .curtain {
+        width: 93%;
+        height: 121%;
+        position: absolute;
+        bottom: -32%;
+        right: -11%;
+    }
+    
+    .head__hidden-menu:checked ~ .head__button {
+        transform: translateX(calc(-50vw + 7vh));
+    }
+}

@@ -1,0 +1,84 @@
+.decisions {
+    padding-bottom: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+
+.decisions__title {
+    max-width: 490px;
+}
+
+.decisions__title .title__tag {
+    display: none;
+}
+
+.decisions__kinds {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 61%;
+}
+
+.decisions__kind {
+    border-radius: 8px;
+    flex: 1 1 272px;
+    display: flex;
+    flex-direction: column;
+    min-height: 460px;
+    padding: 24px;
+    justify-content: space-between;
+    align-items: start;
+    border: none;
+    text-align: start;
+    transition: 1s;
+}
+
+.decisions__for {
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 94.737% */
+    max-width: 190px;
+}
+
+.flat {
+    background: url('../images/background/decisions/flat.jpeg') 0.137px 0px / 128.183% 100% no-repeat, lightgray;
+}
+
+.house {
+    background: url('../images/background/decisions/house.jpeg') 50% / cover no-repeat;
+}
+
+.village {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url('../images/background/decisions/village.jpeg') -50.667px 0px / 225.49% 100% no-repeat;
+}
+
+.decisions__btn {
+    width: 64px;
+    background: transparent;
+    border: none;
+    align-self: end;
+}
+
+.decisions__btn:hover, .decisions__btn:focus {
+    transition: .5s;
+    transform: scale(1.2);
+}
+
+.flat:hover {
+    transform: scale(1.1) translateX(-10px);
+}
+
+.house:hover {
+    transform: scale(1.1) translateY(-10px);
+}
+
+.village:hover {
+    transform: scale(1.1) translateX(10px);
+}

@@ -1,0 +1,111 @@
+.switches {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    z-index: 2;
+    position: relative;
+}
+
+.switches__title {
+    max-width: 754px;
+}
+
+.title--gap_22 {
+    gap: 22px;
+}
+
+.switches__options {
+    padding: 0 100px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #FFF;
+}
+
+.switches__option {
+    flex-shrink: 0;
+    padding: 7px 13px;
+    border-radius: 40px;
+    background: rgba(230, 230, 230, 0.20);
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px; /* 121.429% */
+    text-transform: lowercase;
+}
+
+.companies {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.companies--gap_69 {
+    gap: 69px;  
+}
+
+.gira {
+    width: 88px;
+    height: 24px;
+    fill: #fff;
+}
+
+.switches__container {
+    width: 94%;
+    flex: 1 1 52vw;
+    max-height: 536px;
+    padding: 0 32px 45px 0;
+    border-radius: 40px;
+    background: url("../images/background/switches/back.png") 50% / cover no-repeat;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.switches__description {
+    display: flex;    
+    flex-direction: column; 
+    align-items: start;  
+    gap: 32px;
+}
+
+.switches__text {
+    max-width: 435px;
+    color: var(--ffffff, #FFF);
+    font-family: 'Montserrat';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px; /* 123.529% */
+}
+
+.switches__btn {
+    padding: 10px 30px;
+    border-radius: 12px;
+    border: none;
+    background: var(--ffffff, #FFF);
+    color: var(--2-a-2-a-2-a, #2A2A2A);
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.switches__btn:hover {
+    background: var(--efefef, #EFEFEF);
+}
+
+.switches__btn:active{
+    background: var(--00-b-7-ff, #00B7FF);
+}
+

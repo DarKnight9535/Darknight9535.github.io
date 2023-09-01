@@ -1,0 +1,242 @@
+.kind__icons {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    min-height: 100%;
+    // border: 1px solid black;
+    background: url("../images/content/functionality/group.png") right top / contain no-repeat, transparent;
+}
+
+.kind__icon {
+    background: rgba(255, 255, 255, 0.70);
+    box-shadow: 0px 4px 49px 0px rgba(0, 0, 0, 0.13);
+    backdrop-filter: blur(22px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.kind__icon svg {
+    width: 66%;
+    height: 66%;
+}
+
+.garage-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    transform: rotate(-15.134deg);
+    top: 37%;
+    right: 36%;
+}
+
+.garage-icon::after{
+    content: url("../images/content/functionality/garage.svg");
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    transform: rotate(15.1337deg);
+}
+
+.ventilation-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    transform: rotate(25.018deg);
+    top: 34%;
+    right: 69%;
+    filter: blur(1px);
+}
+
+.ventilation-icon::after{
+    content: url("../images/content/functionality/ventilation.svg");
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    transform: rotate(-25.018deg);
+}
+
+.pump-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    transform: rotate(10.661deg);
+    top: 11%;
+    right: 45%;
+    filter: blur(1px);
+}
+
+.pump-icon::after{
+    content: url("../images/content/functionality/pump.svg");
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    transform: rotate(-10.6607deg);
+}
+
+.lock-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    transform: rotate(21.01deg);
+    top: 13%;
+    right: 12%;
+}
+
+.lock-icon::after{
+    content: url("../images/content/functionality/lock.svg");
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    transform: rotate(-21.0105deg);
+}
+
+.temperature-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    transform: rotate(-21.25deg);
+    bottom: 17%;
+    right: 12%;
+    filter: blur(1.5px);
+}
+
+.temperature-icon::after{
+    content: url("../images/content/functionality/temperature.svg");
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    transform: rotate(21.2495deg);
+}
+
+.lamp {
+    width: 65%;
+    height: 93%;
+    position: absolute;
+    bottom: -50px;
+    right: -20.325%;
+}
+
+.lamp2 {
+    width: 168px;
+    height: 168px;
+    position: absolute;
+    bottom: -31px;
+    right: 53px;
+}
+
+.camera {
+    width: 106px;
+    height: 106px;
+    position: absolute;
+    bottom: 135px;
+    right: 22px;
+}
+
+.lock {
+    width: 195px;
+    height: 150px;
+    position: absolute;
+    bottom: 19px;
+    right: 59px;
+}
+
+.climate {
+    width: 549px; 
+    height: 365px;
+    position: absolute;
+    bottom: -97px;
+    right: -172px;
+}
+
+.curtain {
+    width: 365px; 
+    height: 282px;
+    position: absolute;
+    bottom: -77px;
+    right: -12px;
+}
+
+.tv {
+    width: 527px; 
+    height: 350px;
+    position: absolute;
+    bottom: -42px;
+    right: -125px;
+}
+
+.media1 {
+    width: 366px; 
+    height: 123px;
+    position: absolute;
+    bottom: 9px;
+    right: -176px;
+}
+
+.media2 {
+    width: 104px; 
+    height: 97px;
+    position: absolute;
+    bottom: 9px;
+    right: 251px;
+}
+
+.funphone {
+    width: 370px;
+    height: 218px;
+    position: absolute;
+    bottom: -11px;
+    right: 22px;
+}
+
+.messages {
+    width: 254px;
+    // border: 1px solid black;
+    color: var(--2-a-2-a-2-a, #2A2A2A);
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px; /* 107.143% */
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    position: absolute;
+    bottom: 59px;
+    right: 328px;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, #E8E8E8 100%);
+}
+
+.message {
+    max-width: 214px;
+    padding: 10px 30px;
+    border-radius: 30px 30px 0px 30px;
+    background: linear-gradient(135deg, rgba(188, 102, 255, 0.30) 0%, rgba(227, 114, 255, 0.30) 30.33%, rgba(201, 114, 255, 0.30) 60.42%, rgba(255, 114, 114, 0.30) 94.27%);
+}
+
+.m1 {
+    align-self: end;
+    max-width: 189px;
+}
+
+.m2 {
+    align-self: center;
+}
+
+.m3 {
+    position: relative;
+}
+
+.m3::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0.00) 0%, #E8E8E8 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+

@@ -1,0 +1,44 @@
+.head__button {
+    width: 28px;
+    height: 28px;
+    border: none;
+    display: none;
+    transition: all .22s;
+    z-index: 3;
+}
+
+.head__hidden-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.head__button span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #444444;
+    margin: 4.75px 0;
+}
+
+// .head__hidden-menu:checked ~  .head__button {
+//     transform: translateX(calc(-100vw + 80px));
+// }
+
+.head__hidden-menu:checked ~ .nav {
+    transform: scale(1);
+    right: -50%;
+}
+
+.head__hidden-menu:checked ~ .head__button .first-span {
+    transform: translateY(7.5px) rotate(45deg);
+}
+
+.head__hidden-menu:checked ~ .head__button .second-span {
+    visibility: hidden;
+}
+
+.head__hidden-menu:checked ~ .head__button .third-span {
+    transform: translateY(-7.5px) rotate(-45deg);
+}

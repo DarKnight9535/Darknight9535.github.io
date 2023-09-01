@@ -1,0 +1,101 @@
+.guarantee {
+    width: 90%;
+    max-height: 309px;
+    border-radius: 30px;
+    background: url('../images/background/guarantee/gradient.jpeg') no-repeat center / cover;
+    padding: 34px 0 53px 70px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.guarantee__title {
+    max-width: 499px;
+}
+
+.title--gap-align {
+    gap: 22px;
+    text-align: start;
+    align-items: start;
+}
+
+.title__tag--back-color {
+    background-color: rgba(0, 0, 0, 0.07);
+    color: var(--2-a-2-a-2-a, #2A2A2A);
+}
+
+.title__text-addition--color {
+    color: var(--2-a-2-a-2-a, #2A2A2A);
+}
+
+.guarantee__button {
+    padding: 10px 30px;
+    border-radius: 12px;
+    background: #FFA34C;
+    border: none;
+    color: var(--2-a-2-a-2-a, #2A2A2A);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.guarantee__picture-set {
+    width: 470.434px;
+    height: 300px;
+    position: relative;
+    top: -87px;
+    left: -12px;
+}
+
+.guarantee__border {
+    stroke: black;
+    width: 598px;
+    height: 413px;
+}
+
+.guarantee__picture {
+    position: absolute;
+    top: 53px;
+    left: 63px;
+}
+
+.guarantee__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.guarantee__ellipse {
+    width: 28px;
+    height: 16px;
+    fill: #2A2A2A;
+}
+
+.ellipse-1 {
+    position: absolute;
+    top: 45px;
+    left: 192px;
+}
+
+.ellipse-2 {
+    position: absolute;
+    top: 200px;
+    left: -11px;
+}
+
+.ellipse-3 {
+    position: absolute;
+    top: 341px;
+    left: 443px;
+}
+
+.guarantee__button:hover {
+    background: var(--fc-891-c, #FC891C);
+}
+
+.guarantee__button:active {
+    background: var(--00-b-7-ff, #00B7FF);
+}

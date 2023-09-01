@@ -1,0 +1,41 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+  }
+
+.page {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: var(--efefef, #EFEFEF);
+}
+
+a {
+    text-decoration: none;
+}
+
+picture {
+    display: block;
+}
+
+.slider {
+    width: 136px;
+    height: 6px;
+}
+
+.slider img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

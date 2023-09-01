@@ -1,0 +1,40 @@
+.about {
+    padding: 120px 70px 0 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.about__title {
+    max-width: 490px;
+}
+
+.title--gap_24 {
+    gap: 24px;
+}
+
+.numbers {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 76px;
+    flex-wrap: wrap;
+}
+
+.numbers__item {
+    min-width: 268px;
+}
+
+.title--align {
+    text-align: start;
+    align-items: start;
+}
+
+.title__text--color_bl, .title__text-addition--color_bl {
+    color: var(--444444, #444);
+}
+
+.title__text-addition--width_227 {
+    max-width: 227px;
+}

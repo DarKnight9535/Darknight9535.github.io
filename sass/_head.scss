@@ -1,0 +1,73 @@
+.head {
+    padding: 16px 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background: rgba(252, 252, 252, 0.10);
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(68, 68, 68, 1);
+}
+
+.logo__blue {
+    color: rgba(0, 183, 255, 1);
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu__item {
+    padding: 8px 10px;
+}
+
+.menu__link {
+    color: #444;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    gap: 12px;
+}
+
+.phone__icon {
+    width: 24px;
+    height: 24px;
+}
+
+.phone__number {
+    color: #444;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.menu__item:hover .menu__link {
+    color: var(--b7ff, #00B7FF);
+}
+
+.menu__item:active .menu__link, .menu__link:focus{
+    border: none;
+    outline: none;
+    color: var(--a00a2e, #00A2E1);
+}
