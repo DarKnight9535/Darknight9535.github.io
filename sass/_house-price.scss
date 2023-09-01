@@ -232,3 +232,15 @@
         padding-right: calc(100vw * 0.058 - 13.52px);
     }
 }
+
+.house-price::before {
+    content: '';
+    width: 420px;
+    height: 420px;
+    border-radius: 420px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(170, 24, 221, 0.15) 0%, rgba(189, 0, 255, 0.00) 100%);
+    filter: blur(181.5px);
+    position: absolute;
+    top: 30%;
+    // z-index: 0;
+}
